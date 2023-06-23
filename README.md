@@ -1,12 +1,12 @@
 # aerophone-electrical-controller
 
-In this project, I collaborate with 3 mechanical engineering student and 1 electrical student to convert an inexpensive commercial drone into a flycam. On the electrical side, we achieve the flycam functioncality by adding an ESP32-CAM module and a Raspberry Pi Pico controller. The ESP32-CAM code was written in C++ with Arduino libraries, while Pi Pico code was written in MicroPython.
+In this project, I collaborated with 3 mechanical engineering students and 1 electrical student to convert an inexpensive commercial drone into a flycam. On the electrical side, we achieved the flycam functioncality by adding an ESP32-CAM module and a Raspberry Pi Pico controller. 
 
 <img alt = "Converted Drone" src = "photos/converted-drone.jpg" width = 500>
 <img alt = "Electrical Schematic" src = "photos/electrical-schematic.png" width = 400>
 
 
- The ESP32-CAM code was written in C++ with Arduino libraries. The ESP32-CAM module can take picture while acting as a Web Server. A simple Web UI for user's phone is also built. The ESP32-CAM is configured to be an Access Point. Upon connecting to ESP32-CAM module, user's phone can communicate with the ESP32-CAM via HTTP requests. From the Web Interface on the phone, the user can command the module to take a picture. The user can also receive pictures and receive alerts about the module's operational status: height and battery level.
+ The ESP32-CAM code was written in C++ with Arduino libraries. The ESP32-CAM module can take picture while acting as a Web Server. A simple Web UI for user's phone was also built. The ESP32-CAM is configured to be an Access Point. Upon connecting to ESP32-CAM module, user's phone can communicate with the ESP32-CAM via HTTP requests. From the Web Interface on the phone, the user can command the module to take a picture. The user can also receive pictures and receive alerts about the module's operational status: height and battery level.
 
 <img alt = "UI at normal operation" src = "photos/ui-at-normal-op.png" width = 500>
 <img alt = "UI at error" src = "photos/ui-at-error.png" width = 500>
